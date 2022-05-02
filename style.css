@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  background: hsl(225, 100%, 94%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 375px;
+  background: #fff;
+  margin: 0 28px;
+  border-radius: 10px;
+}
+
+.card-img {
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: url('./images/illustration-hero.svg') no-repeat center center/cover;
+}
+
+.card section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 24px 28px;
+}
+
+.card section h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.card section .summary-txt {
+  color: rgb(95, 94, 94);
+  width: 90%;
+}
+
+.card section .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card .container {
+  width: 100%;
+  padding: 10px 0;
+  margin: 20px 0;
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+
+.card .container img {
+  height: 4rem;
+  align-self: center;
+}
+
+.card .container .plan-type {
+  font-weight: 700;
+  color: #333;
+}
+
+.card .container a {
+  align-self: center;
+  margin-left: 2.2rem;
+}
+
+.card section .btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #333;
+}
+
+.card section .btn:first-of-type {
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  box-shadow: 16px 16px 50px grey;
+}
